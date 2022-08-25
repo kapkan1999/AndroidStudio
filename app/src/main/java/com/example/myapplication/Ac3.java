@@ -9,8 +9,11 @@ public class Ac3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ac3);
         TextView textView = findViewById(R.id.textView2);
+
         //textView.setTextSize(26);
        // textView.setPadding(16, 120, 16, 16);
 
@@ -21,6 +24,6 @@ public class Ac3 extends AppCompatActivity {
             textView.setText("Colour: " +name);
         }
 
-        setContentView(textView);
+
     }
 }
