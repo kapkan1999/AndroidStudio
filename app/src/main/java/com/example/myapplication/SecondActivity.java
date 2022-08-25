@@ -12,15 +12,14 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /*setContentView(R.layout.activity_second);
-        intent.putExtra("hello", "Red");*/
         TextView textView =  this.findViewById(R.id.textView2);
         Bundle arguments = getIntent().getExtras();
-
+        textView.setText("Hello Kitty!");
+        /*
         if(arguments!=null){
             String colour = arguments.get("colour").toString();
             textView.setText("colour: " + colour);
-        }
+        }*/
         setContentView(textView);
     }
 
