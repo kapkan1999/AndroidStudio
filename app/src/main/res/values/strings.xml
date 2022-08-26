@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Я разработчик!!!</string>
-    <string name="button_blue">Перейти на страницу</string>
+    <string name="button_blue">Синий текст</string>
+    <string name="button_red">Красный текст</string>
     <string name="VW1">Переход на другие страницы</string>
     <string name="HINT">Введите первое число</string>
 </resources>

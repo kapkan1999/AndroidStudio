@@ -17,10 +17,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void GoRed( View v) {
-        EditText colourText = findViewById(R.id.editTextColour);
-        String colour = colourText.getText().toString();
+        //EditText colourText = findViewById(R.id.editTextColour);
+        //String colour = colourText.getText().toString();
         Intent intent = new Intent(this, Ac3.class);
-        intent.putExtra("colour", colour);
+        intent.putExtra("colour", "Красный");
+        startActivity(intent);
+    }
+
+    public void GoBlue( View v) {
+        //EditText colourText = findViewById(R.id.editTextColour);
+        //String colour = colourText.getText().toString();
+        Intent intent = new Intent(this, Ac3.class);
+        intent.putExtra("colour", "Синий");
+        startActivity(intent);
+    }
+    public void Scroll( View v) {
+
+        Intent intent = new Intent(this, ScrollActivity.class);
         startActivity(intent);
     }
 
