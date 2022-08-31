@@ -36,5 +36,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ScrollActivity.class);
         startActivity(intent);
     }
+    public void Recycler( View v) {
+
+        Intent intent = new Intent(this, Activity_recyclerView.class);
+        startActivity(intent);
+    }
+
 
 }

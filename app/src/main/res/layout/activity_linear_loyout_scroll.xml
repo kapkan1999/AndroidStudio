@@ -11,8 +11,29 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
         android:padding="8dp"
+        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Введите новую строку"
+                android:minHeight="48dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD"
+                />
+
+        </LinearLayout>
+
 
         <ScrollView
             android:layout_width="match_parent"
@@ -136,6 +157,7 @@
                     android:textSize="20sp" />
             </LinearLayout>
         </ScrollView>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

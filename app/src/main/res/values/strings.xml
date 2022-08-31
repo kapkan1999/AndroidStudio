@@ -4,4 +4,28 @@
     <string name="button_red">Красный текст</string>
     <string name="VW1">Переход на другие страницы</string>
     <string name="HINT">Введите первое число</string>
+    <string-array name="programming_languages" >
+        <item>C++</item>
+        <item>C#</item>
+        <item>Java</item>
+        <item>JavaScripts</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>Ruby</item>
+        <item>Swift</item>
+        <item>TypeScript</item>
+        <item>VisualStudio</item>
+    </string-array>
+    <string-array name="description" >
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+    </string-array>
 </resources>

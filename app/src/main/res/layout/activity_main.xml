@@ -7,6 +7,7 @@
     android:background="#BABABA"
     tools:context=".MainActivity">
 
+
     <Button
         android:id="@+id/add_button"
         android:layout_width="213dp"
@@ -15,6 +16,20 @@
         android:layout_marginTop="104dp"
         android:onClick="GoBlue"
         android:text="@string/button_blue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Recycler"
+        android:layout_width="213dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="304dp"
+        android:onClick="Recycler"
+        android:text="Recycler"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
