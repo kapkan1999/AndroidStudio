@@ -41,6 +41,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Activity_recyclerView.class);
         startActivity(intent);
     }
+    public void SharedPreference( View v) {
+
+        Intent intent = new Intent(this, SharedPreference.class);
+        startActivity(intent);
+    }
 
 
 }
