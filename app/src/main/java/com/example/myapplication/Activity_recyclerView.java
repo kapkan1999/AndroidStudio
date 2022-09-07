@@ -19,8 +19,8 @@ public  class Activity_recyclerView extends AppCompatActivity {
 
     String s1[], s2[];
 
-    int images []={R.drawable.aa,R.drawable.bb,R.drawable.cc,R.drawable.dd,R.drawable.ee,
-            R.drawable.gg,R.drawable.ii,R.drawable.jj,R.drawable.kk};
+    /*int images []={R.drawable.aa,R.drawable.bb,R.drawable.cc,R.drawable.dd,R.drawable.ee,
+            R.drawable.gg,R.drawable.ii,R.drawable.jj,R.drawable.kk};*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +29,7 @@ public  class Activity_recyclerView extends AppCompatActivity {
         s1 = getResources().getStringArray(R.array.programming_languages);
         s2 = getResources().getStringArray(R.array.description);
 
-        MyAdapter myAdapter = new MyAdapter(this, s1,s2,images);
+        MyAdapter myAdapter = new MyAdapter(this, s1,s2);
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
