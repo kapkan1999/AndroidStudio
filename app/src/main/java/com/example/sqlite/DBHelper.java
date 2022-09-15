@@ -11,19 +11,20 @@ import androidx.annotation.Nullable;
 import java.util.LinkedList;
 
 public class DBHelper  extends SQLiteOpenHelper {
-    private static final String MY_TABLE = "MY_TABLE";
+    private static final String MY_TABLE = "CONTACT";
     private static final String COLUMN_NAME = "COLUMN_NAME" ;
     private static final String COLUMN_SURNAME = "COLUMN_SURNAME";
     private static final String COLUMN_YEAR = "COLUMN_YEAR";
 
     public DBHelper(@Nullable Context context) {
-        super(context,  "example.db", null, 1);
+
+        super(context,"example.db",null,1);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-       // db.execSQL("DROP TABLE " + MY_TABLE +";");
-       db.execSQL("CREATE TABLE " + MY_TABLE + " ("+COLUMN_NAME+" TEXT, "+ COLUMN_SURNAME+ " TEXT, "+ COLUMN_YEAR + " INTEGER);");
+
+       db.execSQL("CREATE TABLE " + MY_TABLE + " ("+ COLUMN_NAME + " TEXT, " + COLUMN_SURNAME + " TEXT, " + COLUMN_YEAR + " INTEGER);");
 
     }
 

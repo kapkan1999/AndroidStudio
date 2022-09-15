@@ -6,8 +6,8 @@ public class Data {
     int year;
 
     public Data(String name, String surName, int year) {
-        name = name;
-        surName = surName;
-        year = year;
+        this.name = name;
+        this.surName = surName;
+        this.year = year;
     }
 }
